@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -35,5 +37,57 @@ body {
     margin: 0 auto;
     position: relative;
     top: 6vh;
-    border-radius: 4px;
+    border-radius: 7px;
+    
+}
+
+.bottom-bar{
+    width: inherit;
+    background-color: rgb(94, 236, 75);
+    position:absolute;
+    bottom: 0;
+    height: 35px;
+    border-radius:0 0 7px 7px;
+}
+
+.bottom-bar h2{
+    font-family: "Pixelify Sans", sans-serif;
+    margin: 0 auto;
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    bottom: 3px;
+    left: 41%;
+}
+
+.bottom-bar img{
+    width: 33px;
+    position: absolute;
+    right: 10px;
+    bottom: 1.5px;
+}
+
+footer{
+    background-color: white;
+    position: relative;
+    top: 160px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: fit-content;
+    height: fit-content;
+    font-family: "Pixelify Sans", sans-serif;
+    justify-content: space-between;
+}
+
+footer ul li{
+    list-style: none;
+    font-size: 20px;
 }
