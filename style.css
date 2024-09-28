@@ -75,9 +75,11 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
-footer ul{
+footer ul {
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -87,7 +89,19 @@ footer ul{
     justify-content: space-between;
 }
 
+
 footer ul li{
     list-style: none;
     font-size: 20px;
+}
+
+footer p{
+    font-size: 20px;
+    font-family: "Pixelify Sans", sans-serif;
+    display: block;
+
+}
+
+footer p span{
+    font-family: sans-serif;
 }
